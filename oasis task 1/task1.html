@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Sanskar Valley Public School</title>
+    <!-- font awesome link -->
+    <script
+      src="https://kit.fontawesome.com/63d5bb8428.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="task1.css" />
+    <!-- adding favicons -->
+    <link rel="shortcut icon" type="image/x-icon" href="./tsvpslogo.jpg" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merienda&display=swap"
+      rel="stylesheet"
+    />
+    <!--Google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 2px grey;
+        border-radius: 10px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+        background: #059a91;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: grey;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ASIDE SECTION -->
+    <aside style="position: relative">
+      <div class="aside-sec">
+        <h4>Admission Enquiry</h4>
+      </div>
+    </aside>
+
+    <main>
+      <div id="maindiv">
+        <header>
+          <div class="name-slogo" style="padding: 2rem">
+            <center>
+              <span class="slogo">
+                <img src="./tsvpslogo.jpg" width="145" height="120" />
+                <h1>
+                  THE SANSKAR VALLEY PUBLIC SCHOOL PETLAWAD
+                  <p>शिक्षा ही नहीं, सेवा और संस्कार भी ...</p>
+                </h1>
+              </span>
+            </center>
+          </div>
+        </header>
+      </div>
+
+      <div>
+        <!-- making dropdown hover using links and buttons -->
+        <nav class="navbar">
+          <ul class="listnavbar">
+            <li class="dropdown">
+              <button class="dropbtn">
+                <a href="aboutsec" class="bgcolornav"> ABOUT US </a>
+              </button>
+              <div id="aboutsec" class="about-sec">
+                <a href="#" class> Overview</a>
+                <a href="#" class>Introduction </a>
+                <a href="#">Principal's Message </a>
+
+                <a href="#">Vision & Mission</a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              <button class="dropbtn">
+                <a href="aboutsec" class="bgcolornav"> ACADEMICS </a>
+              </button>
+              <div id="aboutsec" class="about-sec">
+                <a href="#" class> School Timing</a>
+                <a href="#" class>Infrastructrue </a>
+                <a href="#">CBSE Results </a>
+
+                <a href="#">Book List</a>
+                <a href="#">Career Counselling</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <button class="dropbtn">
+                <a href="aboutsec" class="bgcolornav"> FACILITIES </a>
+              </button>
+              <div id="aboutsec" class="about-sec">
+                <a href="#" class>Academic Facilities</a>
+                <a href="#" class>Sports & Games</a>
+                <a href="#" class>Library</a>
+                <a href="#" class>Laboratory</a>
+                <a href="#">Bus Facilities</a>
+                <a href="#">Medical Facilities</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <button class="dropbtn">
+                <a href="aboutsec" class="bgcolornav">ADMISSION </a>
+              </button>
+              <div id="aboutsec" class="about-sec">
+                <a href="#" class> Admission Process</a>
+                <a href="#" class>Fee Structure</a>
+                <a href="#">Download Prospectus</a>
+                <a href="#">Academic Scholarships</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <button class="dropbtn">
+                <a href="aboutsec" class="bgcolornav"> ACTIVITIES </a>
+              </button>
+              <div id="aboutsec" class="about-sec">
+                <a href="#" class>Co-Curricular</a>
+                <a href="#" class> Sports Activites</a>
+                <a href="#"> Past Events</a>
+                <a href="#"> Clubs </a>
+              </div>
+            </li>
+
+            <li>
+              <button class="dropbtn">
+                <a href="#" class="bgcolornav"> CONTACT </a>
+              </button>
+              <div id="aboutsec" class="about-sec"></div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./tsvps proposed.jpg"
+              class="d-block w-100 slidersimage-height"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./DSC07151.JPG"
+              class="d-block w-100 slidersimage-height"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./tsvpstemplate.jpg"
+              class="d-block w-100 slidersimage-height"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./DSC07265.JPG"
+              class="d-block w-100 slidersimage-height"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./index 3.jpg"
+              class="d-block w-100 slidersimage-height"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- about director and principal section -->
+
+      <!-- <section>
+        <div class="mid-section">
+          <div class="director-principal-sec">
+            <img src="" />
+            <h6>Mr. Rajesh Jain</h6>
+            <p></p>
+          </div>
+          <div class="director-principal-sec"></div>
+        </div>
+      </section> -->
+
+      <!-- New Section -->
+      <section class="content-section">
+        <div id="content-main">
+          <div class="item">
+            <div class="content-icons content-icons-1">
+              <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <div class="p-heading">
+              <h2>About Us</h2>
+              <p class="content-p">
+                The Sanskar Valley Public School is a CBSE affiliated
+                institution runs by Registered Society and was established in
+                the year 2011.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="content-icons content-icons-2">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="p-heading">
+              <h2>Principal’s Message</h2>
+              <p class="content-p">
+                A child’s brain is a wonderful creation of god. Inquisitive,
+                colourful, pure, straightforward and unadulterated.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="content-icons content-icons-3">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <div class="p-heading">
+              <h2>Facility</h2>
+              <p class="content-p">
+                One of the favourite corners of the students in the entire
+                campus is library. Treasured with books..
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br />
+
+      <!-- FEATURED EVENTS SECTION AND GRIDS IN SLIDERS -->
+      <div class="featured-event">
+        <h2>Featured Events</h2>
+        <hr class="featured-event-hr" />
+      </div>
+
+      <section>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="sliders-grid">
+                <div>
+                  <div class="card" style="width: 23rem">
+                    <img
+                      src="./IMG_9683.jpg"
+                      class="card-img-top sliders-image"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        75TH INDEPENDENCE DAY CELEBRATION AT TSVPS.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card" style="width: 23rem">
+                    <img
+                      src="./index 1.jpg"
+                      class="card-img-top sliders-image"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        CELEBRATED INTERNATIONAL YOGA DAY-2022.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card" style="width: 23rem">
+                    <img
+                      src="./DSC07299.JPG"
+                      class="card-img-top sliders-image"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        SOME GLIMPSE OF ANNUAL DAY "BLAZE-2 AAGAZ".
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="sliders-grid">
+                <div>
+                  <div class="card" style="width: 23rem">
+                    <img
+                      src="./PNG image.png"
+                      class="card-img-top sliders-image"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        FAREWELL 2022 CELEBRATION - WISHING YOU ALL THE BEST FOR
+                        FUTURE.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card" style="width: 23rem">
+                    <img
+                      src="./IMG_20220307_130536.jpg"
+                      class="card-img-top sliders-image"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        HOLI CELEBRATION AT THE SANSKAR VALLEY PUBLIC SCHOOL.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card" style="width: 23rem">
+                    <img
+                      src="./IMG_9686.jpg"
+                      class="card-img-top sliders-image"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        PRESENTATION ON IMPORTANCE OF SCHOOL BY CLASS 10TH IN
+                        MORNING ASSEMEBLY.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="sliders-grid">
+                <div>
+                  <div class="card" style="width: 23rem">
+                    <img
+                      src="./IMG_9685.jpg"
+                      class="card-img-top sliders-image"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text" style="font-size: 12px">
+                        FELICITATION CEREMONY FOR THESE SHINING STARS & THEIR
+                        PARENTS. (Four of our class VI students cleared Navoday
+                        School exam with meritorious performance).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card" style="width: 23rem">
+                    <img
+                      src="./IMG_9681.jpg"
+                      class="card-img-top sliders-image"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text" style="font-size: 12px">
+                        TSVPS CBSE CLASS X RESULTS. <br />
+                        Chanchal Kalesh From 10th Standard Scored 94% in CBSE
+                        10th board exams. <br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card" style="width: 23rem">
+                    <img
+                      src="./IMG_9693.jpg"
+                      class="card-img-top sliders-image"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text" style="font-size: 12px">
+                        RAINBOW DAY CELEBRATION. <br />
+                        A fun event for pre-primary students by The Sanskar
+                        Valley Public School.<br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="contact-sec-div">
+          <div class="contact-subdiv">
+            <h4>Our Vision</h4>
+            <p>
+              Everyday when the students enter the premises, their eyes turn in
+              this direction, heads bow and in this way another day…
+            </p>
+          </div>
+          <div class="contact-subdiv">
+            <h4>Contact Us</h4>
+
+            <div class="contact-hover" style="margin-top: 20px">
+              <p class="contact-us-info">
+                Ph:
+                <a
+                  href="tel:91741-77400"
+                  style="text-decoration: none; color: black"
+                  >91741-77400</a
+                >,
+                <a
+                  href="tel:99770-44669"
+                  style="text-decoration: none; color: black"
+                  >99770-44669</a
+                >
+              </p>
+              <p class="contact-us-info">
+                City Office:
+                <a
+                  href="tel:91741-77400"
+                  style="text-decoration: none; color: black"
+                  >91741-77400</a
+                >
+              </p>
+              <p class="contact-us-info">
+                School Transport:
+                <a
+                  href="tel:91741-77300"
+                  style="text-decoration: none; color: black"
+                  >91741-77300</a
+                >,
+                <a
+                  href="tel:78792-71510"
+                  style="text-decoration: none; color: black"
+                  >78792-71510</a
+                >
+              </p>
+              <p class="contact-us-info">
+                Email:
+                <a
+                  href="mailto:tsvpspetlawad@gmail.com"
+                  style="text-decoration: none; color: black"
+                  >tsvpspetlawad@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="contact-subdiv">
+            <h4>Address</h4>
+            <p>
+              Raipuriya Road, Near Krishi Upaj Mandi, Petlawad, Dist.
+              Jhabua(M.P)-457773
+            </p>
+          </div>
+          <div class="contact-subdiv-img-p">
+            <img src="./tsvpslogo.jpg" class="contact-subdiv-logo" />
+            <p>CBSE Affilation No.1030632</p>
+          </div>
+        </div>
+        <!--  social Icons section -->
+
+        <div class="grid-social-icons icons">
+          <div class="grid-social-icons-logo">
+            <a
+              href="https://www.instagram.com/tsvps_petlawad/?igshid=YmMyMTA2M2Y%3D"
+            >
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <div class="grid-social-icons-logo">
+            <a href="https://m.facebook.com/tsvpspetlwd/"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+          </div>
+          <div class="grid-social-icons-logo">
+            <a href="https://www.youtube.com/channel/UCKjsFmh1OVlEW09Dd39HAhA"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+          <div class="grid-social-icons-logo">
+            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </section>
+      <!-- <div class="contact-social-icons">
+          <ul class="contact-ul-social-icons">
+            <center>
+              <li>
+                <a
+                  href="https://www.instagram.com/tsvps_petlawad/?igshid=YmMyMTA2M2Y%3D"
+                >
+                  <i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://m.facebook.com/tsvpspetlwd/"
+                  ><i class="fa-brands fa-square-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCKjsFmh1OVlEW09Dd39HAhA"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+              </li>
+            </center>
+          </ul>
+        </div> -->
+
+      <!-- <hr class="contact-hr"> <br>
+    <div>
+    <p> COPYRIGHT © TSVPS SCHOOL </p>
+    </div> -->
+      <!-- </div> -->
+
+      <!-- <div class="section3">
+      <div class="imgsec-3">
+        <img
+          src="https://emeraldheights.edu.in/wp-content/uploads/2020/09/Sports-Co-Curricular-scaled.jpg"
+          height="400"
+          width="600"
+        />
+      </div>
+      <div class="imgsec-3">
+        <img
+          src="https://emeraldheights.edu.in/wp-content/uploads/2020/09/INTERNATIONALISM.jpg"
+          height="400"
+          width="600"
+        />
+      </div>
+      <div class="imgsec-3">
+        <img
+          src="https://emeraldheights.edu.in/wp-content/uploads/2020/09/boarding.jpg"
+          height="400"
+          width="600"
+        />
+      </div>
+      <div class="imgsec-3">
+        <img
+          src="https://emeraldheights.edu.in/wp-content/uploads/2020/09/Academics.jpg"
+          height="400"
+          width="600"
+        />
+      </div>
+    </div> -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"
+      ></script>
+    </main>
+  </body>
+</html>
